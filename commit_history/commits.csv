@@ -1,0 +1,150 @@
+SHA,Author,Date,Message
+550fcde0fcc3a6cd5fcd8672dd1c4892c6b93978,Ryan Christian,2024-12-04T06:53:23Z,refactor: Fix lighthouse accessibility issue in footer links (#1203)
+f68e65aadbd19b042921cc175aa256f3aa248768,Ryan Christian,2024-12-01T18:45:28Z,fix: Convert old LESS functions to plain hex color in loading bar (#1199)
+726c44d0891030ad132860475bf492def62e3453,Marvin Hagemeister,2024-12-01T18:40:03Z,"Merge pull request #1201 from preactjs/chore/cdn-preconnect
+
+chore: Switch CDN preconnect over to esm.sh"
+bca4692bf4bd1b4ceb74ba605e0694df3ec425e2,Ryan Christian,2024-12-01T07:15:52Z,chore: Switch CDN preconnect over to esm.sh
+e6ba630abd5b33a23d769b0d9653d0801873d9ae,Emmanuel Ngene,2024-11-26T07:00:57Z,docs: Fix typos and enhance readability on switching-to-preact.md (#1198)
+c052396d5aea8d796077858228d8ce19a0f202ab,Jason Miller,2024-11-19T07:22:10Z,"REPL: Fix property access being considered non-side-effecting (#1196)
+
+Fixes #1180"
+1b7b7da18f7a5e19d9c3a829df10c1737568c949,Ryan Christian,2024-11-18T07:38:30Z,"refactor: Use prerender data API (#1192)
+
+* refactor: Use prerender data API
+
+* refactor: Switch to proper prerender data provider
+
+* docs: Fix home page github stars repl example"
+a0bc595533ee7df7b3bab6646bdfc58c92eec752,Bugo,2024-11-18T06:15:15Z,"docs: Update Russian translation (#1195)
+
+* Translate simplifying-islands-arch
+
+* Update config.json
+
+* Update switching-to-preact.md"
+b32868da0e15d57ccbfcd4fefd4b22881b0189f1,jviide,2024-11-15T23:17:44Z,chore: Update blogAuthors metadata (#1194)
+8f82d4f9f8c66a1ae99fe01b3b4578b5a8814d53,Ryan Christian,2024-11-07T21:30:15Z,chore: Update contributors list (#1193)
+8fdc91266a05f42788ac40080cbf041320b5fdc3,Ryan Christian,2024-11-07T07:11:07Z,chore: Cache contributors w/ use-resource (#1191)
+a3f203e9d0a6176aae132d298ad474b856177e36,Ryan Christian,2024-11-06T15:14:32Z,feat: Adds bluesky social link to header (#1190)
+f22797736b84f8a64a449bd84e4d50b06c179d15,Ryan Christian,2024-11-05T14:00:40Z,"feat: Basic content prefetch (#1186)
+
+* feat: Basic content prefetch for links in header & sidebar
+
+* refactor: Content retrieval
+
+* refactor: Grab language from documentElement for prefetching
+
+* feat: Prefetch content for markdown links
+
+* refactor: Use URL constructor instead"
+b042fc53b830363a6f752d2f0045ebb5f225cbaf,Ryan Christian,2024-11-05T13:57:52Z,"docs: Soften language around suspense (#1187)
+
+* docs: Weaken language around suspense
+
+* docs: Link to suspense issues specifically"
+f64a432de779b87b900d5c3e7d71f230946d8be1,g-nor,2024-11-05T02:51:33Z,"fixing webmaker link in demos & examples (#1189)
+
+Co-authored-by: g-nor <ron@lapr>"
+67554f57a84e700ddeb435c3d654d6a78d3f068d,Siddharth Gelera (reaper),2024-10-29T10:09:26Z,"docs: add blog post for diy islands (#1185)
+
+* docs: add blog post for diy islands
+
+* docs: update pub date
+
+* docs: update blog post simplifying islands"
+608d8791e20204affe9861a97304c06615d00936,Marvin Hagemeister,2024-10-24T08:50:21Z,"Merge pull request #1181 from preactjs/chore/update-deno
+
+chore: Update Deno logo"
+d3b3592335804f47b2bc6d98201ba72ceb0af603,Ryan Christian,2024-10-24T07:05:16Z,"fix: ""Todo list"" REPL examples (#1179)
+
+* fix: ""Todo list signals"" REPL example
+
+* fix: ""Todo list"" REPL example"
+91130be86b64f4fb61f94e9473a8a4de79a60643,Ryan Christian,2024-10-24T07:01:44Z,"refactor: Move REPL query safety check into runner (#1183)
+
+* refactor: Move REPL query safety check into runner
+
+* Update src/components/controllers/repl/runner.jsx"
+078015a31ccf946a272cd21abda14ea888ce7bce,Johannes Kuehnel,2024-10-20T21:03:07Z,docs: Fix typo in no-build-workflows.md (#1182)
+b2cfb138cb96f157719637c60c4aed81ec85cada,Ryan Christian,2024-10-17T01:49:54Z,chore: Update Deno logo
+e2835757e388e09a2617c2f502f97b599ca26d12,ShiningTrapez,2024-08-20T09:12:50Z,"Update URL for Material UI Preact (#1177)
+
+* Update URL for Material UI Preact
+
+* Update MUI Preact Lint in Korean and Russian Translations"
+b9c9382bb1e49dfec4a1ee9205c5293589c893ee,Bugo,2024-08-18T07:24:17Z,"Update Russian translation (#1176)
+
+* Update ru/guide/v10/getting-started.md
+
+* Translate guide/v10/no-no-build-workflows.md
+
+* Update src/config.json
+
+* Translate ru/blog/prerendering-preset-vite.md"
+13b33858ef7787b04ddc66881b815279df245c49,Ryan Christian,2024-08-16T17:13:50Z,"blog: Prerendering with `@preact/preset-vite` (#1174)
+
+* blog: Add prerendering-preset-vite.md
+
+* chore: Add blog entry to config
+
+* refactor: Re-add prism diff support
+
+* docs: Reword & reorder prerendering blog post
+
+* docs: Fix title & insert prelude into blog post
+
+* Apply suggestions from code review
+
+Co-authored-by: Jovi De Croock <decroockjovi@gmail.com>
+
+* Apply suggestions from code review
+
+* refactor: Fill out ""Our History"" section
+
+* refactor: Add elipses to globalThis example
+
+* update phrasing
+
+Co-authored-by: Ryan Christian <33403762+rschristian@users.noreply.github.com>
+
+* refactor: Final rewording & formatting changes
+
+---------
+
+Co-authored-by: Jovi De Croock <decroockjovi@gmail.com>
+Co-authored-by: Marvin Hagemeister <hello@marvinh.dev>"
+d87bef40ba685eb617bdf0a65eab196e52992da4,Ryan Christian,2024-08-13T20:28:41Z,"docs: Add 'No-Build Workflows' doc, focusing on importmaps (for now) (#1175)"
+551d77b42d71f814fd116551caa9c3abe82292c4,Ryan Christian,2024-08-07T04:54:30Z,docs: Explicitly note preset-vite in alias prelude (#1173)
+58a8669e2feb90b8cc9d06c9f6627ce4d6d59e3e,Ryan Christian,2024-07-24T05:42:49Z,"fix: Ensure the 'Solve' button in the tutorial works (#1171)
+
+* fix: Ensure the 'Solve' button in the tutorial works
+
+* refactor: Simpler query param"
+932e9ce922a89886c63128025a131446d1e996f5,luiztux,2024-07-23T03:12:32Z,"Update Brazilian Portuguese translation (#1170)
+
+* Update Brazilian Portuguese translation
+
+* Update content/pt-br/index.md
+
+---------
+
+Co-authored-by: Ryan Christian <33403762+rschristian@users.noreply.github.com>"
+5422be4d7f5a33d7d6802fb348959f2444a43e8b,Bugo,2024-07-18T12:28:16Z,"Update Russian translation (#1168)
+
+* Update ru/guide/v10/typescript.md
+
+* Update config.json
+
+* Update ru/guide/v10/web-components.md
+
+* Update ru/guide/v10/forms.md
+
+* Update content/ru/guide/v10/web-components.md
+
+Co-authored-by: Ryan Christian <33403762+rschristian@users.noreply.github.com>
+
+---------
+
+Co-authored-by: Ryan Christian <33403762+rschristian@users.noreply.github.com>"
+54bc15332a1b744975f3f5da92a6164fd61b200a,Ryan Christian,2024-07-17T04:54:03Z,fix: Ensure passed-in initial code overrides localStorage in REPL (#1167)

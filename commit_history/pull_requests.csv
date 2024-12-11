@@ -1,0 +1,31 @@
+PR Number,Title,Author,State
+1203,refactor: Fix lighthouse accessibility issue in footer links,rschristian,closed
+1202,refactor: Lazy load algolia docsearch,rschristian,open
+1201,chore: Switch CDN preconnect over to esm.sh,rschristian,closed
+1200,chore: Bump vite to v6,rschristian,open
+1199,fix: Convert old LESS functions to plain hex color in loading bar,rschristian,closed
+1198,docs: Fix typos and enhance readability on switching-to-preact.md,El-Nazy,closed
+1197,Add Browserify aliasing instructions,joepie91,closed
+1196,REPL: Fix property access being considered non-side-effecting,developit,closed
+1195,docs: Update Russian translation,dragomano,closed
+1194,chore: Update blogAuthors metadata,jviide,closed
+1193,chore: Update contributors list,rschristian,closed
+1192,refactor: Use prerender data API,rschristian,closed
+1191,chore: Cache contributors w/ use-resource,rschristian,closed
+1190,feat: Adds bluesky social link to header,rschristian,closed
+1189,issue#1188 fixing malware link in demos & examples,g-nor,closed
+1187,docs: Soften language around suspense,rschristian,closed
+1186,feat: Basic content prefetch,rschristian,closed
+1185,docs: add blog post for diy islands,barelyhuman,closed
+1184,Update index.jsx,Manisha-95,closed
+1183,refactor: Move REPL query safety check into runner,rschristian,closed
+1182,docs: Fix typo in no-build-workflows.md,JohannesKuehnel,closed
+1181,chore: Update Deno logo,rschristian,closed
+1179,"fix: ""Todo list"" REPL examples",rschristian,closed
+1178,feat: Codemods for Upgrading from Preact 8.x,manishjha-04,closed
+1177,Update URL for Material UI Preact,ShiningTrapez,closed
+1176,Update Russian translation,dragomano,closed
+1175,"docs: Add 'No-Build Workflows' doc, focusing on importmaps (for now)",rschristian,closed
+1174,blog: Prerendering with `@preact/preset-vite`,rschristian,closed
+1173,docs: Explicitly note preset-vite in alias prelude,rschristian,closed
+1171,fix: Ensure the 'Solve' button in the tutorial works,rschristian,closed
